@@ -1,0 +1,38 @@
+{
+    "name": "alitindrawan24/request-id-middleware",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Alitindrawan24\\RequestIDMiddleware\\": "src/",
+            "Alitindrawan24\\RequestIDMiddleware\\Tests\\": "tests"
+        }
+    },
+    "authors": [{
+        "name": "Alit Indrawan",
+        "email": "alitindrawa71n@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.27",
+        "pestphp/pest": "^1.23",
+        "pestphp/pest-plugin-laravel": "^1.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": []
+        }
+    }
+}
