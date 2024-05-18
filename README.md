@@ -29,7 +29,7 @@ This packages provides a middleware which can be added as a global middleware or
 protected $middleware = [
     // ...
     
-    \Alitindrawan24\RequestID\Middleware\RequestID::class
+    \Alitindrawan24\RequestID\Middleware\RequestIDMiddleware::class
 ];
 ```
 
@@ -38,7 +38,7 @@ protected $middleware = [
 
 Route::post('/dashboard', function () {
     //
-})->middleware(\Alitindrawan24\RequestID\Middleware\RequestID::class);
+})->middleware(\Alitindrawan24\RequestID\Middleware\RequestIDMiddleware::class);
 ```
 
 ## Testing
