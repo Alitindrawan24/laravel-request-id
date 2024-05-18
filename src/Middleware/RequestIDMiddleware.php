@@ -1,6 +1,6 @@
 <?php
 
-namespace Alitindrawan24\RequestIDMiddleware\Middleware;
+namespace Alitindrawan24\RequestID\Middleware;
 
 use Closure;
 use Illuminate\Support\Str;

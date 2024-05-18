@@ -1,16 +1,16 @@
 {
-    "name": "alitindrawan24/request-id-middleware",
+    "name": "alitindrawan24/laravel-request-id",
     "license": "MIT",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Alitindrawan24\\RequestIDMiddleware\\": "src/",
-            "Alitindrawan24\\RequestIDMiddleware\\Tests\\": "tests"
+            "Alitindrawan24\\RequestID\\": "src/",
+            "Alitindrawan24\\RequestID\\Tests\\": "tests"
         }
     },
     "authors": [{
         "name": "Alit Indrawan",
-        "email": "alitindrawa71n@gmail.com"
+        "email": "alitindrawan71@gmail.com"
     }],
     "minimum-stability": "dev",
     "require": {

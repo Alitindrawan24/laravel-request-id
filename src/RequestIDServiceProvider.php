@@ -1,6 +1,6 @@
 <?php
 
-namespace Alitindrawan24\RequestIDMiddleware;
+namespace Alitindrawan24\RequestID;
 
 use Illuminate\Support\ServiceProvider;
 

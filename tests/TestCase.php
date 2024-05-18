@@ -1,8 +1,8 @@
 <?php
 
-namespace Alitindrawan24\RequestIDMiddleware\Tests;
+namespace Alitindrawan24\RequestID\Tests;
 
-use Alitindrawan24\RequestIDMiddleware\RequestIDServiceProvider;
+use Alitindrawan24\RequestID\RequestIDServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

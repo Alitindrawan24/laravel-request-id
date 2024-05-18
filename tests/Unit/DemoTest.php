@@ -1,13 +1,13 @@
 <?php
 
-namespace Alitindrawan24\RequestIDMiddleware\Tests\Unit;
+namespace Alitindrawan24\RequestID\Tests\Unit;
 
 use function Pest\Laravel\getJson;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Config;
-use Alitindrawan24\RequestIDMiddleware\Middleware\RequestIDMiddleware;
+use Alitindrawan24\RequestID\Middleware\RequestIDMiddleware;
 beforeEach(function() {
     // Setup temporary routes for testing middleware
     Route::middleware(RequestIDMiddleware::class)->get('/test-logging', function () {
