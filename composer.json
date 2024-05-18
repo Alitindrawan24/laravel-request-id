@@ -32,7 +32,9 @@
     },
     "extra": {
         "laravel": {
-            "providers": []
+            "providers": [
+                "Alitindrawan24\\RequestID\\RequestIDServiceProvider"
+            ]
         }
     }
 }
