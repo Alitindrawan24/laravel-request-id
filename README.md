@@ -1,4 +1,7 @@
 # Laravel Request ID
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/alitindrawan24/laravel-request-id.svg?style=flat-square)](https://packagist.org/packages/alitindrawan24/laravel-request-id)
+[![Total Downloads](https://poser.pugx.org/alitindrawan24/laravel-request-id/downloads)](https://packagist.org/packages/alitindrawan24/laravel-request-id)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Request ID is uniquely identifies the HTTP request sent from the app to the service and enables the app to correlate requests and responses, in case the app needs to resend a request because of a dropped connection. This package provides a middleware that allows to generate a unique request id and append on log context every time if the log called.
 
